@@ -6,20 +6,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter_pdfview/flutter_pdfview.dart';
-import 'screen/bottom_nav.dart';
-import 'screen/home_screen.dart';
-import 'screen/option_screen.dart';
-import 'screen/serch_screen.dart';
-import 'screen/test_screen.dart';
 
-void main() => runApp(MyApp());
 
-class MyApp extends StatefulWidget {
+
+
+//여기스크린에서 pdf 를 출력해보자.
+class TestScreen extends StatefulWidget {
+  const TestScreen({Key? key}) : super(key: key);
+
   @override
-  _MyAppState createState() => _MyAppState();
+  State<TestScreen> createState() => _TestScreenState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _TestScreenState extends State<TestScreen> {
   String pathPDF = "";
   String landscapePathPdf = "";
   String remotePDFpath = "";
@@ -50,6 +49,7 @@ class _MyAppState extends State<MyApp> {
       });
     });
   }
+
 
   Future<File> createFileOfPdfUrl() async {
     Completer<File> completer = Completer();
@@ -96,93 +96,48 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return
-      MaterialApp(
-        title: 'capstonProject',
-        theme: ThemeData(
-          brightness: Brightness.light,
-          primaryColor: Colors.deepPurpleAccent,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),//상호작용 요소에 사용되는 색상
-        home: BottomNav(),
-        routes: {
-          '/bottom_nav' : (context) => BottomNav(),
-          '/home_screen' : (context) => HomeScreen(),
-          '/serch_screen' : (context) => SerchScreen(),
-          '/option_screen' : (context) => OptionScreen(),
+    return Scaffold(
+            appBar: AppBar(title: const Text('Plugin example app')),
+            body: Center(child: Builder(
+              builder: (BuildContext context) {
+                return Column(
+                  children: <Widget>[
+                    TextButton(
+                      child: Text("Open PDF"),
+                      onPressed: () {
+                        if (pathPDF.isNotEmpty) {
+                          ///////////////////////////////////
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => PDFScreen(path: pathPDF),
 
-        },
-      );
+                            ),
+                            /////////////////////////////////
+                          );
+                        }
+                      },
+                    ),
+                    TextButton(
+                      child: Text("Open Landscape PDF"),
+                      onPressed: () {
+                        if (landscapePathPdf.isNotEmpty) {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  PDFScreen(path: landscapePathPdf),
+                            ),
+                          );
+                        }
+                      },
+                    ),
+                  ],
+                );
+              },
+            )),
+          );
 
-    //   MaterialApp(
-    //   title: 'Flutter PDF View',
-    //   debugShowCheckedModeBanner: false,
-    //   home: Scaffold(
-    //     appBar: AppBar(title: const Text('Plugin example app')),
-    //     body: Center(child: Builder(
-    //       builder: (BuildContext context) {
-    //         return Column(
-    //           children: <Widget>[
-    //             TextButton(
-    //               child: Text("Open PDF"),
-    //               onPressed: () {
-    //                 if (pathPDF.isNotEmpty) {
-    //                   Navigator.push(
-    //                     context,
-    //                     MaterialPageRoute(
-    //                       builder: (context) => PDFScreen(path: pathPDF),
-    //                     ),
-    //                   );
-    //                 }
-    //               },
-    //             ),
-    //             TextButton(
-    //               child: Text("Open Landscape PDF"),
-    //               onPressed: () {
-    //                 if (landscapePathPdf.isNotEmpty) {
-    //                   Navigator.push(
-    //                     context,
-    //                     MaterialPageRoute(
-    //                       builder: (context) =>
-    //                           PDFScreen(path: landscapePathPdf),
-    //                     ),
-    //                   );
-    //                 }
-    //               },
-    //             ),
-    //             TextButton(
-    //               child: Text("Remote PDF"),
-    //               onPressed: () {
-    //                 if (remotePDFpath.isNotEmpty) {
-    //                   Navigator.push(
-    //                     context,
-    //                     MaterialPageRoute(
-    //                       builder: (context) => PDFScreen(path: remotePDFpath),
-    //                     ),
-    //                   );
-    //                 }
-    //               },
-    //             ),
-    //             TextButton(
-    //               child: Text("Open Corrupted PDF"),
-    //               onPressed: () {
-    //                 if (pathPDF.isNotEmpty) {
-    //                   Navigator.push(
-    //                     context,
-    //                     MaterialPageRoute(
-    //                       builder: (context) =>
-    //                           PDFScreen(path: corruptedPathPDF),
-    //                     ),
-    //                   );
-    //                 }
-    //               },
-    //             )
-    //           ],
-    //         );
-    //       },
-    //     )),
-    //   ),
-    // );
   }
 }
 
@@ -196,7 +151,7 @@ class PDFScreen extends StatefulWidget {
 
 class _PDFScreenState extends State<PDFScreen> with WidgetsBindingObserver {
   final Completer<PDFViewController> _controller =
-      Completer<PDFViewController>();
+  Completer<PDFViewController>();
   int? pages = 0;
   int? currentPage = 0;
   bool isReady = false;
@@ -226,7 +181,7 @@ class _PDFScreenState extends State<PDFScreen> with WidgetsBindingObserver {
             defaultPage: currentPage!,
             fitPolicy: FitPolicy.BOTH,
             preventLinkNavigation:
-                false, // if set to true the link is handled in flutter
+            false, // if set to true the link is handled in flutter
             onRender: (_pages) {
               setState(() {
                 pages = _pages;
@@ -260,13 +215,13 @@ class _PDFScreenState extends State<PDFScreen> with WidgetsBindingObserver {
           ),
           errorMessage.isEmpty
               ? !isReady
-                  ? Center(
-                      child: CircularProgressIndicator(),
-                    )
-                  : Container()
+              ? Center(
+            child: CircularProgressIndicator(),
+          )
+              : Container()
               : Center(
-                  child: Text(errorMessage),
-                )
+            child: Text(errorMessage),
+          )
         ],
       ),
       floatingActionButton: FutureBuilder<PDFViewController>(
@@ -287,3 +242,4 @@ class _PDFScreenState extends State<PDFScreen> with WidgetsBindingObserver {
     );
   }
 }
+

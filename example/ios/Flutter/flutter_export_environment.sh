@@ -1,9 +1,9 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/Users/endigo/Projects/sdk/flutter"
-export "FLUTTER_APPLICATION_PATH=/Users/endigo/Projects/dart/flutter_pdfview/example"
+export "FLUTTER_ROOT=C:\Users\bs200\OneDrive\Desktop\2023_1\app_programing\flutter\SDK"
+export "FLUTTER_APPLICATION_PATH=C:\Users\bs200\OneDrive\Desktop\flutter_textView\flutter_pdfview\example"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
-export "FLUTTER_TARGET=lib/main.dart"
+export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"
 export "FLUTTER_BUILD_NUMBER=1.0.0"
