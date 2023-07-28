@@ -1,0 +1,1214 @@
+[33mcommit 7dcb9bdd2c5b362b8b5f9f978199958ed3426b47[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: bolco <bs2000jt@gmail.com>
+Date:   Fri Jul 28 15:17:49 2023 +0900
+
+    baseProject
+
+[33mcommit 225d2bcfd5964b6bd8f167e574dc741485d96a00[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat May 13 20:42:08 2023 +0800
+
+    use new api on test
+
+[33mcommit 32b981510e4e09bafafd118b3b063013d117e9ed[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat May 13 20:39:19 2023 +0800
+
+    update changelog
+
+[33mcommit aec793093d1b62cbf72a0008f035155d1097c994[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat May 13 20:27:40 2023 +0800
+
+    upgrade sdk version, release 1.3.1
+
+[33mcommit dd96f7824b6d837ed78b231fa317df91a214faf8[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat May 13 20:27:22 2023 +0800
+
+    upgrade compileSdkVersion to 33
+
+[33mcommit 077618d4dcb1eb6d17636a0d6d73f7730a4f216b[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Fri Mar 31 09:01:30 2023 +0800
+
+    chore: upgrade android-pdf-viewer to 3.2.0-beta.3
+    chore: bump version to 1.3.0
+
+[33mcommit ac34f8ee4ef96bed4ace15aa212f6f91f3c61902[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 20:38:07 2023 +0800
+
+    Close #230, release 1.2.9
+
+[33mcommit 26b8e75f031261445ce9f1e64d54866e5dbb115c[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 17:36:06 2023 +0800
+
+    release 1.2.8
+
+[33mcommit 300e38e95de791bdfa165547c2c85a65f27abedc[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 17:35:32 2023 +0800
+
+    add documentation
+
+[33mcommit 118939852d8dccfc8319043e78cb5405931f99b8[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 17:09:51 2023 +0800
+
+    remove unused fitEachPage prop
+
+[33mcommit f88e2da214fb2c1c23c905eb6c1738e96193cd01[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 17:07:58 2023 +0800
+
+    release 1.2.7
+
+[33mcommit 7fae3918a31bc4f88cdb07c11895cf3dc17bdbbf[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 17:06:46 2023 +0800
+
+    downgrade to beta.2, upgrade gradle to 7.3.0
+
+[33mcommit a7b74055439749d6d887d87903389972d9c8d0fe[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 17:01:44 2023 +0800
+
+    remove enableR8
+
+[33mcommit 2c1929f282f9fed44b31729e11b70e88f04a0c10[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Mar 15 16:18:13 2023 +0800
+
+    update example's gradle, and compileSdkVersion
+
+[33mcommit 1b01190f953ff1ccf67e2927d856ec97dd989626[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 14 21:07:54 2023 +0800
+
+    remove unused import
+
+[33mcommit 1431a0a822567ebd4b242bc52643b1ae6a3a1fc2[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 14 21:02:17 2023 +0800
+
+    update to com.github.mhiew:android-pdf-viewer:3.2.0-beta.3
+
+[33mcommit 1c73158553013773b5cec4048497da9cb45e1f0f[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 14 21:00:45 2023 +0800
+
+    release 1.2.6
+
+[33mcommit 0e146a27fd63f83499078b4c948b40373db96b83[m
+Merge: 780a3d3 429f36d
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 14 20:58:25 2023 +0800
+
+    Merge pull request #227 from wmatusiak/FixDefaultPageOnIOS
+    
+    Fixed defaultPage not working on iOS
+
+[33mcommit 429f36db767654f7f563dc7dbf1cc4620a012f85[m
+Author: Wojciech Matusiak <wmatusiak@gmail.com>
+Date:   Thu Mar 9 22:37:06 2023 +0100
+
+    Fixed defaultPage not working on iOS
+
+[33mcommit 780a3d30e27c6a0610f9ad74630d6155fe4ee355[m
+Merge: 9c4a855 6e871f5
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 28 18:23:19 2022 +0800
+
+    Merge branch 'master' of github.com:endigo/flutter_pdfview
+
+[33mcommit 9c4a8556758cbf0c1bf6f56527e0d5bad23de34e[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 28 18:23:13 2022 +0800
+
+    Merge #201
+
+[33mcommit 6e871f51b21c894a26ce4abd7834bc1f99fd7e11[m
+Merge: 10434c6 83a8765
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 28 18:22:23 2022 +0800
+
+    Merge pull request #201 from wmatusiak/FixInvalidFrameOnIOS
+    
+    Fixed invalid frame of PDFView on IOS
+
+[33mcommit 10434c61603aed42009e87407a35c71fe7920f94[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 28 18:18:56 2022 +0800
+
+    Merge #202
+
+[33mcommit f3d7f8dcbfeadffb4f304f4e568b695fef0cbb36[m
+Merge: fd63d5c aa8ee15
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 28 18:17:21 2022 +0800
+
+    Merge pull request #202 from 781flyingdutchman/master
+    
+    Change dependency for AndroidPdfViewer
+
+[33mcommit aa8ee15e667a8533ad49fb0fcf5e39758d04250b[m
+Author: Bram Bout <bram@bbflight.com>
+Date:   Sat Sep 3 23:38:42 2022 -0700
+
+    Changed dependency for AndroidPdfViewer
+    
+    The original repository at com.github.barteksc is no longer available in the google() and mavenCentral() repositories. It now lives  at com.github.mhiew, where it is actively maintained
+
+[33mcommit 83a87652f49675b350b86479805a87a9a5d7425d[m
+Author: Wojciech Matusiak <wmatusiak@gmail.com>
+Date:   Sat Aug 27 15:27:08 2022 +0200
+
+    Fixed invalid frame of PDFView on IOS
+
+[33mcommit fd63d5c24d21eef6367abcef8c6b2936ad8d9a39[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Aug 3 11:16:38 2022 +0800
+
+    add changelog to 1.2.3
+
+[33mcommit e28fd42863decb4627d7e621400a53ca4666cc44[m
+Merge: 3cc3b15 87d4a32
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Aug 3 10:36:25 2022 +0800
+
+    Merge pull request #192 from moazelsawaf/master
+    
+    Fixed the Initial Zoom bug in IOS
+
+[33mcommit 87d4a320b1f02d8cce82da3750a74488c8c90547[m
+Author: Moaz El-sawaf <moazelsawaf@hotmail.com>
+Date:   Wed Aug 3 04:24:16 2022 +0200
+
+    Fixed the Initial Zoom bug at IOS
+
+[33mcommit 3cc3b152dca112949bc0e3438de768a70a403e45[m
+Merge: 39333be 3a1b522
+Author: endigo <endigo.18@gmail.com>
+Date:   Sun Mar 6 18:52:46 2022 +0800
+
+    Merge pull request #177 from CarGuo/master
+    
+    Update support HybridComposition
+
+[33mcommit 3a1b5226d070747f613c3290c28ec0efb23328ec[m
+Author: Shuyu Guo <359369982@qq.com>
+Date:   Fri Mar 4 17:44:43 2022 +0800
+
+    Update flutter_pdfview.dart
+
+[33mcommit 39333be79c36c69c0b24fd387041edb7fb249d0b[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 1 15:29:51 2022 +0800
+
+    restore dart sdk version limitation
+
+[33mcommit 03665b904203106dcd2279bbad595c94b37029dc[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 1 15:26:28 2022 +0800
+
+    update version to 1.2.2
+
+[33mcommit 7b25601ab5dd6a345e3cf4d26658e333d012ccf5[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Mar 1 15:25:41 2022 +0800
+
+    release 1.2.2 #174
+
+[33mcommit 648d0560c2eab3fd12d1e77852c480a8d5cc46dd[m
+Merge: 4e6cfd0 164b50c
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Feb 22 07:25:11 2022 +0800
+
+    Merge pull request #174 from The-Redhat/master
+    
+    add double tap
+
+[33mcommit 164b50ce461cee879aba2ecc9f003f098f8b0504[m
+Author: Gregor Weber <gregor.weber@knowunity.de>
+Date:   Mon Nov 22 18:53:49 2021 +0100
+
+    update minScaleFactor
+
+[33mcommit 581d779a217d9a13d24f269f35e90e7efb4fb8d3[m
+Author: Gregor Weber <gregor.weber@knowunity.de>
+Date:   Mon Nov 22 18:46:34 2021 +0100
+
+    add double tap gesture
+
+[33mcommit 4e6cfd0c6da77f4376c99d5fd228ff85a7f3d18e[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Aug 25 10:01:46 2021 +0800
+
+    release 1.2.1
+
+[33mcommit 25b2a8a3e36140ee10cf32d3a8da03f4e895da5a[m
+Merge: 65bc671 c01acb4
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Aug 25 08:17:27 2021 +0800
+
+    Merge pull request #148 from PcolBP/master
+    
+    Updating plugin configs
+
+[33mcommit c01acb414aaaa209e0be284d02b48be50e7008f1[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Tue Aug 24 14:44:32 2021 +0200
+
+    Updated Android Native dependency of AndroidPdfViewer to 3.2.0-beta.1 with fixes such as:
+    
+    Merge PR #714 with optimized page load
+    Merge PR #776 with fix for max & min zoom level
+    Merge PR #722 with fix for showing right position when view size changed
+    Merge PR #703 with fix for too many threads
+    Merge PR #702 with fix for memory leak
+    Merge PR #689 with possibility to disable long click
+    Merge PR #628 with fix for hiding scroll handle
+    Merge PR #627 with fitEachPage option
+    Merge PR #638 and #406 with fixed NPE
+    Merge PR #780 with README fix
+    Update compile SDK and support library to 28
+    Update Gradle and Gradle Plugin
+    
+    available at https://github.com/barteksc/AndroidPdfViewer
+
+[33mcommit e2cf202651e12539e601119e105f0eeac00ab80e[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Tue Aug 24 07:24:15 2021 +0200
+
+    Updated compileSdkVerion in Android gradle file
+
+[33mcommit 1add368e829c06a294306286953e8709e27cb5bf[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Tue Aug 24 07:23:27 2021 +0200
+
+    Updated README.md
+
+[33mcommit 6eac03ecaa485e4e8bfe6958df7944cc91bdabbc[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Tue Aug 24 07:20:08 2021 +0200
+
+    Updated minimal flutter sdk version
+
+[33mcommit a5fe2ef428d6bd7a4473ce3fb69d1314c7df4593[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Tue Aug 24 07:17:53 2021 +0200
+
+    Updated dependencies
+
+[33mcommit 65bc671d8a60dd443fac4db10faea61466a86579[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Mon Aug 23 22:34:11 2021 +0800
+
+    release 1.2.0
+
+[33mcommit d9feccbfa2cabc12aaaa10973f3b2ff3e42238b1[m
+Merge: 0926fc3 4760a15
+Author: endigo <endigo.18@gmail.com>
+Date:   Mon Aug 23 22:28:53 2021 +0800
+
+    Merge pull request #147 from PcolBP/master
+    
+    Migration Android V2 Embedding & jCenter to mavenCentral
+
+[33mcommit 4760a15e19404b8740a6b394696467a353ac886a[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Mon Aug 23 14:59:59 2021 +0200
+
+    Migrated from jCenter to mavenCentral
+
+[33mcommit 21f58056a12cc76d3290efe70d335ccb9dc134a5[m
+Author: Media-Creations <5410981plpbbp@gmail.com>
+Date:   Mon Aug 23 14:56:43 2021 +0200
+
+    Migrated plugin to Android V2 embedding
+
+[33mcommit 0926fc3f587a8d7d666a39d6dae9ef18f8d62467[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat May 22 17:37:52 2021 +0800
+
+    Create FUNDING.yml
+
+[33mcommit d43db06cfa309b667765efe4b560e3a7ef5b6dc4[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Fri Mar 5 14:18:19 2021 +0800
+
+    fix: remove deprecated codes
+
+[33mcommit 1b4cd70282cb3d57b4aed6105a104a9a22b66037[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Fri Mar 5 11:56:01 2021 +0800
+
+    Update README.md
+
+[33mcommit af7a981ef1d7507a6f4366891188fed0596f3020[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Fri Mar 5 07:42:07 2021 +0800
+
+    add release note for 1.1.0
+
+[33mcommit fd4701673718e6988176e3705b100c252b8329c3[m
+Merge: ae5cba2 3b2796b
+Author: endigo <endigo.18@gmail.com>
+Date:   Fri Mar 5 07:04:06 2021 +0800
+
+    Merge pull request #130 from stijnie2210/migrate-to-nullsafety
+    
+    Migrate to nullsafety
+
+[33mcommit 3b2796bcd1eace734b82eb0917ebc785c87551dc[m
+Author: Stijn Mommersteeg <stijn@dcc.team>
+Date:   Thu Mar 4 21:47:55 2021 +0100
+
+    reverted generated sh
+
+[33mcommit 9cdd29351d1acfd4de78a29aff14d12c8a84f8e5[m
+Author: Stijn Mommersteeg <stijn@dcc.team>
+Date:   Thu Mar 4 21:45:11 2021 +0100
+
+    Migrated code to be compatible with flutter 2 nullsafety
+
+[33mcommit ae5cba2a4daa2089011d8b21db8ab63b12a638eb[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Dec 9 09:51:23 2020 +0800
+
+    update example and add changelog to 1.0.4
+
+[33mcommit 95a1085149e2eef58a9f3f66632f20d067501537[m
+Merge: 921d907 94a1e53
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Dec 9 09:12:17 2020 +0800
+
+    Merge pull request #122 from factisresearch/raw-pdf
+    
+    Add support for reading PDF from byte data (merged)
+
+[33mcommit 94a1e5324dafaf2dd81c20a826fd7febd38132e9[m
+Merge: 921d907 9766536
+Author: Timo von Holtz <tvh@tvholtz.de>
+Date:   Tue Dec 8 09:56:48 2020 +0100
+
+    Merge branch 'master' of github.com:deakjahn/flutter_pdfview into raw-pdf
+
+[33mcommit 921d90759f7b34aa3290e9dce5171dcb0f1d22f8[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Nov 25 19:36:27 2020 +0800
+
+    Close #119
+
+[33mcommit 1193d1b9fcb220b74671320afc3cb43411e7374d[m
+Merge: 81d19ae 7a44c5e
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Nov 25 19:33:33 2020 +0800
+
+    Merge pull request #120 from daisuke310vvv/fix/setPage-objc-value
+    
+    Fixed setPage value to Objective-C NSNumber
+
+[33mcommit 7a44c5ed013bdf19c62ce70ee8a530490ddde8a0[m
+Author: daisuke310vvv <daisuke.sato1991@gmail.com>
+Date:   Wed Nov 25 19:48:10 2020 +0900
+
+    Fixed setPage value to Objective-C NSNumber
+
+[33mcommit 81d19aef3c838ad60f2e19b2d464ffe24260428c[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Nov 24 09:21:59 2020 +0800
+
+    update changelog
+
+[33mcommit 997e9916849d3dc003be4abedc6c57ceec5cb213[m
+Merge: 2e10b65 9591ee5
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Nov 24 09:11:06 2020 +0800
+
+    Merge pull request #118 from daisuke310vvv/fix/set-page-value
+    
+    Fixed setPage return value from int to bool on iOS
+
+[33mcommit 9591ee58f187c32834ec92832caa98aaac050b5b[m
+Author: daisuke310vvv <daisuke.sato1991@gmail.com>
+Date:   Tue Nov 24 00:08:38 2020 +0900
+
+    Fixed setPage return value from int to bool on IOS
+
+[33mcommit 2e10b65aeb2d106c3bed359849d1b78adbad1972[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Thu Nov 19 22:02:11 2020 +0800
+
+    changelog for 1.0.3+6
+
+[33mcommit f643ace8fefc5dbec9ef911839862688f8fa9a20[m
+Merge: be67586 7f49e41
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat Nov 14 15:47:23 2020 +0800
+
+    Merge pull request #114 from miguelslemos/patch-1
+    
+    Update android SDK version to 29
+
+[33mcommit 7f49e41b70b53d1f05be8e56ccb6208664f0c5ae[m
+Author: Miguel Lemos <miguelslemos@gmail.com>
+Date:   Fri Nov 13 17:49:01 2020 -0300
+
+    Update android SDK version to 29
+    
+    This PR updates the android SDK version to 29
+
+[33mcommit be6758660c419f8df98c0092f5bec041d12dd38f[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Sep 21 10:22:44 2020 +0800
+
+    run pub get
+
+[33mcommit ff69b84d90aebbebbf3c41f90ebfdf1dd9b259f1[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Sep 21 09:40:30 2020 +0800
+
+    update changelog for 1.0.3+5
+
+[33mcommit edf2ced79fd2388ab88d9a4369dabfbd09ec9915[m
+Merge: a252c33 d966b20
+Author: endigo <endigo.18@gmail.com>
+Date:   Mon Sep 21 09:36:55 2020 +0800
+
+    Merge pull request #104 from andresath/master
+    
+    iOS proper scaling for PDF with pages on landscape-orientation
+
+[33mcommit d966b209ab1b1273dfc9fd4c1f7db2dd763b3895[m
+Author: Andres Atehortua <ing.andres.ath@gmail.com>
+Date:   Sun Sep 20 09:50:58 2020 -0500
+
+    Restore default page logic.
+
+[33mcommit 8ff36f0170982b955c73f76a675a554e106e8123[m
+Author: Andres Atehortua <ing.andres.ath@gmail.com>
+Date:   Sat Sep 19 18:15:07 2020 -0500
+
+    Allow iOS PDFView to auto-calculate "scaleFactorForSizeToFit" by initializing it using the "mainScreen" bounds.
+
+[33mcommit 802221bf8226e301ace586c00a60523167e1e0b0[m
+Author: Andres Atehortua <ing.andres.ath@gmail.com>
+Date:   Sat Sep 19 18:07:29 2020 -0500
+
+    Add button to open the demo landscape PDF.
+
+[33mcommit 8ca15e8326151e7357fd50424d4ac86fddea723a[m
+Author: Andres Atehortua <ing.andres.ath@gmail.com>
+Date:   Sat Sep 19 18:00:16 2020 -0500
+
+    Add demo PDF file with page in landscape orientation.
+
+[33mcommit a252c3399c00488d24e914aabc1ac4e510370a99[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Sep 15 11:32:45 2020 +0800
+
+    add release note about 1.0.3+4
+
+[33mcommit a04222441a49a02c9f16c78fcb1c5c5ecc089569[m
+Merge: b22654b 4ac9ea5
+Author: endigo <endigo.18@gmail.com>
+Date:   Tue Sep 15 11:30:49 2020 +0800
+
+    Merge pull request #103 from mouxhun/master
+    
+    Android support show annotation on pdf
+
+[33mcommit 4ac9ea52cb36d43c032d19cba7dd2dfbdc5c6945[m
+Author: soul <mouxhun@qq.com>
+Date:   Tue Sep 15 11:17:36 2020 +0800
+
+    enable annotation render
+
+[33mcommit b22654b8ba04dcee827390bae027c5545ccdfec2[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Aug 19 22:02:33 2020 +0800
+
+    release 1.0.3+3
+
+[33mcommit 90091778d58099a2f9dcb3383315913c860e9790[m
+Merge: d11d51c d62bc73
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Aug 19 21:58:18 2020 +0800
+
+    Merge pull request #97 from macitkaraca/patch-1
+    
+    iOSEncrypted Pdf Files (Fixed)
+
+[33mcommit d62bc7320d84050f19b24bec49c233d8edbc1c6e[m
+Author: Macit <37928692+macitkaraca@users.noreply.github.com>
+Date:   Wed Aug 19 14:46:13 2020 +0300
+
+    Encrypted Pdf Files (Fixed)
+    
+    Encrypted pdf files. First page looks blank (Fixed)
+
+[33mcommit d11d51c4009d3cfb3cf368dc2fe535035e3b4c6c[m
+Merge: 1b5e88d ea6caeb
+Author: endigo <endigo.18@gmail.com>
+Date:   Fri Aug 14 17:45:03 2020 +0800
+
+    Merge pull request #95 from krispypen/patch-1
+    
+    Remove print statement
+
+[33mcommit ea6caebcc9f140372dc2b220e2054696473a71c0[m
+Author: Kris Pypen <kris.pypen@gmail.com>
+Date:   Thu Aug 13 22:52:46 2020 +0200
+
+    Remove print statement
+
+[33mcommit 1b5e88d23b7b43d8759c6a82fcca9e212ea2ba23[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 29 21:34:50 2020 +0800
+
+    changa example identifier
+
+[33mcommit 0cfdf1a30b46a2ae0cd797f4f9603eeb5654814f[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 29 21:29:00 2020 +0800
+
+    upgrade packages
+
+[33mcommit 5c1263d22f5982d1e7235b88162906d751dc7585[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 29 21:21:18 2020 +0800
+
+    Add Future plans section
+
+[33mcommit 28729d4a3097d528fc87aea4cbe4e1606107ef90[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 29 21:15:34 2020 +0800
+
+    Close #87
+
+[33mcommit e945186f93a219f14296d2c4f4fcb0db5a2b7736[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 29 20:51:21 2020 +0800
+
+    add default proguard-rules.pro
+
+[33mcommit 715c637b7462975d09a6babb4e7c3f547ffef51c[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jul 21 17:45:31 2020 +0800
+
+    format
+
+[33mcommit 3f75e13be20870af19aed1ebe66657d4eae97cad[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 1 17:43:55 2020 +0800
+
+    fix error message
+
+[33mcommit 5b2b56444fb02b16258b5fca7b09733e782015aa[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Thu Jun 25 08:57:29 2020 +0800
+
+    flutter format
+
+[33mcommit 1cf464a815d79ebe67436cc419b56088e3389438[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Jun 22 08:51:56 2020 +0800
+
+    release notes 1.0.3
+
+[33mcommit 10b5c847feba7a737ab17cc971550bfd0269a9c5[m
+Merge: 990430b 6b7e366
+Author: endigo <endigo.18@gmail.com>
+Date:   Mon Jun 22 08:47:55 2020 +0800
+
+    Merge pull request #81 from stefalda/master
+    
+    Handled links
+
+[33mcommit 6b7e3663e0788fed42be7dfc93d69cc77e9014c4[m
+Author: Stefano Falda <stefalda@users.noreply.github.com>
+Date:   Sat Jun 20 02:27:43 2020 +0200
+
+    Update README.md
+    
+    Added new OnLinkHandler and preventLinkNavigation
+
+[33mcommit 4a707a55d097cf1487e8eb23686bf63c24084b02[m
+Author: Stefano Falda <stefano.falda@gmail.com>
+Date:   Sat Jun 20 02:16:50 2020 +0200
+
+    LinkHandler ported to iOS
+
+[33mcommit 2a9afde5f1cac49bab7040fa977d9a8ce47cbacd[m
+Author: Stefano Falda <stefano.falda@gmail.com>
+Date:   Sat Jun 20 01:03:37 2020 +0200
+
+    Added support for getting link notification in flutter
+    Added event onLinkHandler and property preventLinkNavigation (if true redirect the uri navigation to flutter)
+    Fixed "updateSettings" method that called setPage instead
+
+[33mcommit 990430bff5afd9f58e816b122981d395fb77c028[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Thu Jun 18 09:04:36 2020 +0800
+
+    Update README.md
+
+[33mcommit ba2e3f8890ed3c38c8ccc916538959a255b0f73e[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Thu Jun 18 08:47:18 2020 +0800
+
+    Update README.md
+
+[33mcommit 479a736a596e9fa3aa4f57c74340e5237d4e4da5[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Jun 15 23:04:50 2020 +0800
+
+    fix unlimited zoom out
+
+[33mcommit 0ee95041cd36042be2f02ecd30a26956f17ad350[m
+Merge: 6314970 5219d7a
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Jun 15 22:54:38 2020 +0800
+
+    Merge branch 'master' of https://github.com/endigo/flutter_pdfview
+
+[33mcommit 5219d7ac0c8894c736d84599008050798e73afca[m
+Merge: 544de73 8fde0aa
+Author: endigo <endigo.18@gmail.com>
+Date:   Mon Jun 15 22:53:54 2020 +0800
+
+    Merge pull request #78 from daanporon/feature/disable-unlimited-zoom-out
+    
+    IOS unlimited zoom-out
+
+[33mcommit 8fde0aa03f06451e0766031930569aa5703922b3[m
+Author: Daan Poron <daan@poron.be>
+Date:   Mon Jun 15 15:52:55 2020 +0200
+
+    use calculated scale as minScaleFactor ... else we get an unlimited zoom out
+
+[33mcommit 6314970c4790316bee33225ba6567d59628ddf18[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 2 10:23:12 2020 +0800
+
+    ignote .flutter-plugins-dependencies
+
+[33mcommit 519ba130ce01b2b6a4b42b96d3a9656adb860bcf[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 2 10:23:06 2020 +0800
+
+    remove .flutter-plugins-dependencies files
+
+[33mcommit 544de73c9200ab651f965819f6a9bc4864f2150c[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Jun 1 23:55:46 2020 +0800
+
+    Close #72
+
+[33mcommit 1138961151bed08f69f3e298d7ab1de87460f9e9[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Jun 1 23:34:42 2020 +0800
+
+    migrate to androidx
+
+[33mcommit 95b0503382c0810dda196ab9ccefd77c68601f8f[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Thu May 28 12:53:12 2020 +0800
+
+    release 1.0.2+2
+
+[33mcommit cb956f688187078bfc90f04d87eebaa84ab4854b[m
+Merge: 108171b b657036
+Author: endigo <endigo.18@gmail.com>
+Date:   Thu May 28 12:52:36 2020 +0800
+
+    Merge pull request #68 from phucgaoxam/master
+    
+    Add support tap on link inside the pdf
+
+[33mcommit b6570367d9155e87b31f16871357c9bdba0ba5f8[m
+Author: Phuc Chau <chauminhphuc@gmail.com>
+Date:   Thu May 28 10:05:39 2020 +0700
+
+    Update PDFLinkHanlder
+
+[33mcommit c591a90f85d28cf8336443ca69ba7be7f3844c82[m
+Author: Phuc Chau <chauminhphuc@gmail.com>
+Date:   Thu May 28 09:57:16 2020 +0700
+
+    Add click on link pdf
+
+[33mcommit 108171bf6df39fa6b7d71a96e958de24705f242c[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Thu May 28 10:13:12 2020 +0800
+
+    in ios13, find scrollview, disable automaticallyAdjustsScrollIndicatorInsets
+
+[33mcommit ffd4f42e23c7a8e3f2231064e7039631db6417c4[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Thu May 28 09:48:34 2020 +0800
+
+    add paypal button
+
+[33mcommit 389c12c5912921cd58ad36f5c522bcd682122441[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Thu May 28 09:42:18 2020 +0800
+
+    Update README.md
+
+[33mcommit 17474c3cbdd26a6990fa9d75d57802f87cac9557[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 23 21:23:37 2020 +0800
+
+    update packages, set versions
+
+[33mcommit b8be769051ea0ce6d3b607172a9428e84c90b000[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 23 21:13:06 2020 +0800
+
+    add changelog
+
+[33mcommit 23efac917c2648e39e05df05016064a1db288ae9[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 23 21:11:30 2020 +0800
+
+    Close #75 add pod_target_xcconfig
+
+[33mcommit 97665365271b853334047da70ad4b1148e856cab[m
+Author: deakjahn <2234271+deakjahn@users.noreply.github.com>
+Date:   Thu Apr 30 18:59:07 2020 +0200
+
+    Fixed function call
+    
+    Unrelated error, just spotted.
+
+[33mcommit 25f059b12511f7ff9d284ef8704582c5670c5ba7[m
+Author: deakjahn <2234271+deakjahn@users.noreply.github.com>
+Date:   Thu Apr 30 10:40:10 2020 +0200
+
+    pdfData support
+
+[33mcommit ceb7b178944dc8c1fc5398954d396de0edee106b[m
+Author: deakjahn <2234271+deakjahn@users.noreply.github.com>
+Date:   Thu Apr 30 10:37:53 2020 +0200
+
+    iOS support
+
+[33mcommit a79ff4bb0c2451e80e8882e07adeba83b3448163[m
+Author: deakjahn <2234271+deakjahn@users.noreply.github.com>
+Date:   Wed Apr 29 17:04:40 2020 +0200
+
+    Add files via upload
+
+[33mcommit ec7f1ae0ed182ef3e1c4d8676510668efdccc6ef[m
+Author: deakjahn <2234271+deakjahn@users.noreply.github.com>
+Date:   Wed Apr 29 17:04:09 2020 +0200
+
+    Add files via upload
+
+[33mcommit ba3ccf32330c47a084e746c3eaf24de8286cc352[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Mar 30 23:15:04 2020 +0800
+
+    add example with remote pdf
+
+[33mcommit 50050719a71f355956e2935d4d88f27a30f34e6d[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Feb 26 00:14:06 2020 +0800
+
+    increase version
+
+[33mcommit 7af64dee52bfd6b543df1813b97ea799b9620199[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Feb 26 00:13:47 2020 +0800
+
+    modify changelog
+
+[33mcommit 90b8c22160295e4081332f807cdc4df41fe15165[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Feb 26 00:12:51 2020 +0800
+
+    add support a FitPolicy on android
+
+[33mcommit 5d8ff00f85496db4ed2cf899fe4695f1e6b82068[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 19:54:59 2020 +0800
+
+    fix mispelled android class name
+
+[33mcommit 05e3314d6ee3c817b7d672c441d50347b3e0fd3b[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 18:33:16 2020 +0800
+
+    update pubspec
+
+[33mcommit 98a6322b7c4e62cff393f6862959c96f17e012f3[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 18:08:42 2020 +0800
+
+    increase build number
+
+[33mcommit 9661b6b4d620091bafdc7d5a6bdf110ba1200edf[m
+Merge: 925f8c1 a4f5c77
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 18:08:02 2020 +0800
+
+    Merge branch 'master' into default-page
+
+[33mcommit 925f8c1e763855c4f3b477188d1dff32547dacd8[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 18:02:47 2020 +0800
+
+    add changelog
+
+[33mcommit 5f7ba84c321a1c41e58c645e389da5addc8cc01e[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 17:56:28 2020 +0800
+
+    update documentation
+
+[33mcommit 46137d0cee287254595e69d49e392b662d36f92a[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 17:50:36 2020 +0800
+
+    add support default page
+
+[33mcommit e9a1cd5ed7c1cc4a9b98d0dbcb98f1eecd00a19b[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 17:26:10 2020 +0800
+
+    pass defaultPage
+
+[33mcommit 1879e2e22410f51d6729dbfae39a53bb5c84f77c[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 17:25:55 2020 +0800
+
+    update flutter version
+
+[33mcommit 689fcd969cea9bfb0fe3bbe851ff1594a31e9b4a[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Feb 25 17:25:43 2020 +0800
+
+    update flutter deps
+
+[33mcommit a4f5c7729ed562b3e5498504e2820badab51d190[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Mon Dec 16 12:52:39 2019 +0800
+
+    update changelog, readme
+
+[33mcommit a24915cf33e9d551975c3ebfccda7c2e60289cf6[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun Dec 15 20:02:44 2019 +0800
+
+    update example with corrupted pdf
+
+[33mcommit b4fd5c873f2deefb66b49e10c9d8e7482de72bf9[m
+Merge: c9eeec7 a77c9bc
+Author: endigo <endigo.18@gmail.com>
+Date:   Sun Dec 15 19:12:12 2019 +0800
+
+    Merge pull request #36 from phamnhuvu-dev/master
+    
+    Support onError for iOS, fix crash on Android by "cannot create document: File not in PDF format or corrupted."
+
+[33mcommit a77c9bcf1eee1cd1cb63b6731c171a3ae8f18e07[m
+Merge: c3375c5 c9eeec7
+Author: Phạm Như Vũ <phamnhuvu.dev@gmail.com>
+Date:   Sat Dec 14 23:19:24 2019 +0700
+
+    Merge branch 'master' into master
+
+[33mcommit c3375c55169f928d684b59751006438ef0e159b5[m
+Author: phamnhuvu-dev <phamnhuvu.dev@gmail.com>
+Date:   Sat Dec 14 23:08:23 2019 +0700
+
+    support onError for iOS
+
+[33mcommit d5d3c97ce2c8c92d924e4bf8236229e810a062b6[m
+Author: phamnhuvu-dev <phamnhuvu.dev@gmail.com>
+Date:   Sat Dec 14 22:43:02 2019 +0700
+
+    Fixed Unsupported value
+
+[33mcommit c9eeec74e44970a96f2d2614dfa5f97aee1de767[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Fri Nov 15 09:40:22 2019 +0800
+
+    add proguard rule on README, Close #29
+
+[33mcommit 0ebfe104b2c2fbbabdda74a262d80aa2e20d526f[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 25 22:18:03 2019 +0800
+
+    Update README.md
+    
+    revert
+
+[33mcommit f5570bff842e904189a07064c7547827d708aa4e[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Wed Sep 25 22:15:39 2019 +0800
+
+    Update README.md
+    
+    add donate button
+
+[33mcommit e6b5918dc90aa85a7f4b7c3a2a48413f8a0901d6[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun Aug 4 16:43:42 2019 +0800
+
+    add build number
+
+[33mcommit 9c4fe678723928d3576cefe44de4baabc253307f[m
+Merge: ce5ace0 31a1ddf
+Author: endigo <endigo.18@gmail.com>
+Date:   Sun Aug 4 16:42:15 2019 +0800
+
+    Merge pull request #22 from santiihoyos/master
+    
+    Avoid Android Native crash when file is not valid
+
+[33mcommit 31a1ddf193026ada6b81d80cd2f9aca4d07492d6[m
+Merge: ce5ace0 20a0cec
+Author: Santi Hoyos <santiago.hoyos93@gmail.com>
+Date:   Fri Aug 2 10:42:52 2019 +0200
+
+    Merge branch 'fix_android_crash'
+
+[33mcommit 20a0cec284f5a200813fc1d59974e93851bbce57[m
+Author: Santi Hoyos <santiago.hoyos93@gmail.com>
+Date:   Fri Aug 2 10:42:43 2019 +0200
+
+    avoid native crash when file is not valid or corrupt.
+
+[33mcommit e443a776bd04e8a12bf70752f297822f1714d8bb[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 31 09:14:14 2019 +0800
+
+    WIP
+
+[33mcommit ce5ace00a85d1ae26899a327f9835e0692dbbb90[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 31 06:15:19 2019 +0800
+
+    update readme to 1.0.0+8
+
+[33mcommit 390fab41edddcbf82e9122cb34bb5caf45e83ecc[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 31 06:09:43 2019 +0800
+
+    release 1.0.0+8
+
+[33mcommit a4229854a2b8a411a77db1f455a9fb9438db4220[m
+Merge: 432990d d9675d1
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 31 06:07:36 2019 +0800
+
+    Merge branch 'master' of https://github.com/endigo/flutter_pdfview
+
+[33mcommit 432990dd6be0a69083da84012c12d15b75f4cd43[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed Jul 31 06:07:33 2019 +0800
+
+    Close #21
+
+[33mcommit d9675d1fdd95ce7e8056c68e57767288d32a1671[m
+Author: endigo <endigo.18@gmail.com>
+Date:   Fri Jul 19 10:55:09 2019 +0800
+
+    update LICENSE
+    
+    Close #19
+
+[33mcommit fff6f396c6a8f2c8bc64f75912fb440758e6314f[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 18 22:46:41 2019 +0800
+
+    update build number in readme
+
+[33mcommit f56ea292238c55f6e888e0f805fc5812a47ecc9d[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 18 22:46:13 2019 +0800
+
+    add note about 1.0.0+7
+
+[33mcommit 18a88856146905fbfa33b163b3b705c6cd60e953[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 18 22:41:46 2019 +0800
+
+    clear comment, bump build number
+
+[33mcommit 09c105fd95d82430e3ed228c36c1616ce0127901[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 18 22:32:28 2019 +0800
+
+    upgrade path_provider version
+
+[33mcommit d47e7439f2f33073cbad9268dc160b0e803d9979[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue Jun 18 22:29:53 2019 +0800
+
+    run formatter
+
+[33mcommit 3c1a0c64948a483d43124ff17373eec4f9e9c581[m
+Merge: 02b8a28 bf13739
+Author: endigo <endigo.18@gmail.com>
+Date:   Sat May 11 10:02:19 2019 +0800
+
+    Merge pull request #8 from endigo/fix-onrender-handler-on-ios
+    
+    Fix onrender handler on ios
+
+[33mcommit bf13739562f24684a643ec80427c67c942dbbe81[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 11 10:00:32 2019 +0800
+
+    update changelog
+
+[33mcommit 07404c2f50d894207adfeae7318ac87e2630d149[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 11 09:59:29 2019 +0800
+
+    FIX: onRender not works on iOS, #6, #7
+
+[33mcommit 02b8a28c92c28fef7086d4f6d48f20655a4b28f5[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Fri May 10 12:01:56 2019 +0800
+
+    FIX: remove missing file reference
+
+[33mcommit 16f9ef8e309b27a88ecc8fc8105291160f4b2472[m
+Merge: 5e1ad30 862793a
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed May 8 22:48:47 2019 +0800
+
+    resolve
+
+[33mcommit 5e1ad305c974de92fd7197c86cfbf163af129722[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Wed May 8 22:47:05 2019 +0800
+
+    onRender, onError, onPageError handlers added
+
+[33mcommit 862793aa43b97782354f34c49f1ab0f630915695[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Tue May 7 11:18:11 2019 +0800
+
+    update document with controller functions
+
+[33mcommit f7b9d30328523c358cab63db8cad1303fd0d4010[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 20:22:34 2019 +0800
+
+    rename Rects
+
+[33mcommit d2e2972da9b9a4d9d40a859bf0a31bc6655160ba[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 17:00:26 2019 +0800
+
+    support enableSwipe
+
+[33mcommit 12d6c3f1269c8cb6b77d0332d0f1bb18784e406a[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 16:59:58 2019 +0800
+
+    enableSwipe support in iOS
+
+[33mcommit d30c78724cd5a184c4dda77049a745b66ac00535[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 15:11:57 2019 +0800
+
+    increase version number
+
+[33mcommit 711368451ad71c7aff94cf73487038a0b3fce962[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 15:10:54 2019 +0800
+
+    set correct scale in ios
+
+[33mcommit 8640474958764050eb9a1a49f29b73ae7ac95014[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 12:26:58 2019 +0800
+
+    move to upper
+
+[33mcommit 92e5bb28e73f4f8ec933e722e3e11bf8d7700811[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 12:02:46 2019 +0800
+
+    set display mode to  kPDFDisplaySinglePageContinuous
+
+[33mcommit b0c3325282901584d32ecd5094e3a94b2d32aa42[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 11:40:51 2019 +0800
+
+    update pub description
+
+[33mcommit ef07e39f9a8d78a37e797aae1ce3433421abb075[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 08:53:39 2019 +0800
+
+    reformat, add dependecies, changelog
+
+[33mcommit 6c2af92678559dc499931a6cc03d46afbb6e5bd7[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 08:46:11 2019 +0800
+
+    update document
+
+[33mcommit 2007454da75b43c77ba6df940d944d319b2c9044[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 01:30:42 2019 +0800
+
+    implement pageChange handler on android
+
+[33mcommit 18dab9e9b6335aa975ba9c9a7c442bf313b59ea4[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 01:04:10 2019 +0800
+
+    onPageChanged handler implement on iOS
+
+[33mcommit 03394c6756b49092b9990f0f082f1f65caa11266[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sun May 5 00:55:45 2019 +0800
+
+    using passend parameters as pdfview option
+
+[33mcommit f6e55568eef98459c4a29b43c9d4b042dd0663b9[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 4 22:34:08 2019 +0800
+
+    show pageCount using controller method
+
+[33mcommit e82861c9a44a5a1e94248dc7cf3a7171f1c9c53f[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 4 22:16:47 2019 +0800
+
+    pass options to android
+
+[33mcommit 00579c75bd5ce535f07522ca9c1b749c4d9f14bd[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 4 22:16:47 2019 +0800
+
+    pass options to android
+
+[33mcommit 05a294a0fae61822c767d78fcb1e32853061c480[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Sat May 4 15:59:12 2019 +0800
+
+    ignore .idea
+
+[33mcommit c7132dcad260a9165467bfc9a07e4a50a0135c2d[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Fri May 3 17:08:17 2019 +0800
+
+    working demo
+
+[33mcommit 278ae50ecfca9278bd595ae5dbcbc93c9026f738[m
+Author: endigo <tsogt.otgonbaatar@gmail.com>
+Date:   Fri May 3 16:10:57 2019 +0800
+
+    first commit
